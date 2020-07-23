@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   background: #DCDCDC;
+}
+
+#container {
+    background-color: #7b859a;
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* Header ------------------------------------------ */
+header {
+    width: 100%;
+    height: 10vh;
+    box-sizing: border-box;
+    background-color: #d2d6d0;
+    background-image: url(images.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+
+header h3{
+    text-align: right;
+    padding: 20px;
+    color: white;
+    margin-right: 300px;
+}
+/* Aside ------------------------------------------ */
+aside{
+	width: 30%;
+	height: 50vh;
+	box-sizing: border-box;
+    background: #4f5559;
+    padding: 10px;
+	float: left;
+}
+
+/* Section ------------------------------------------ */
+section {
+	width: 70%;
+	height: 50vh;
+	box-sizing: border-box;
+    background-color: #7b859a;
+	float: right;
+	clear: right;
+}
+
+
+#kinhte{
+    width: 200px;
+    height: auto;
+    float: left;
+}
+#chinhtri{
+    width: 200px;
+    height: auto;
+    float: right;
+}
